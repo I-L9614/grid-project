@@ -5,30 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Css learning</title>
     <link rel="stylesheet" href="Gallery.css">
-    <link rel="stylesheet" href="global.css">
 </head>
-<body>
+<body class="gallery-page">
     
         <nav class="navbar">
             <h1 class="description">CSS Grid Learning</h1>
             <ul class="nav-links">
                 <a class="Home" href="Home.html">Home</a>
                 <a class="Gallery" href="Gallery.html">Gallery</a>
+                <a class="animation" href="Animation.html">Animation</a>
+                <a class="chaleng" href="Chaleng.html"></a>
             </ul>
+            <strong>Current screen size: <span id="screen-size"></span></strong>
         </nav>
-
-        <header>
-            <h2>Image Gallery Example</h2>
-            <p>This gallery uses grid-column and span to create items of different sizes.</p>
-        </header>
-
+            <header>
+                <h2>Image Gallery Example</h2>
+                <p>This gallery uses grid-column and span to create items of different sizes.</p>
+            </header>
+            
         <main class="gallery">
-            secti
+            <div class="gallery-item item-1">
+                <img src="https://picsum.photos/600/400?random=1" alt="Gallery Image 1">
+                <div class="caption">Spans 2 columns</div>
+            </div>
+            <div class="gallery-item item-2">
+                <img src="https://picsum.photos/400/400?random=2" alt="Gallery Image 2">
+                <div class="caption">Regular</div>
+            </div>
+            <div class="gallery-item item-3">
+                <img src="https://picsum.photos/400/400?random=3" alt="Gallery Image 3">
+                <div class="caption">Regular</div>
+            </div>
+            <div class="gallery-item item-4">
+                <img src="https://picsum.photos/400/800?random=4" alt="Gallery Image 4">
+                <div class="caption">Spans 2 rows</div>
+            </div>
+            <div class="gallery-item item-5">
+                <img src="https://picsum.photos/800/800?random=5" alt="Gallery Image 5">
+                <div class="caption">Spans 2 cols & 2 rows</div>
+            </div>
+            <div class="gallery-item item-6">
+                <img src="https://picsum.photos/400/400?random=6" alt="Gallery Image 6">
+                <div class="caption">Regular</div>
+            </div>
+            <div class="gallery-item item-7">
+                <img src="https://picsum.photos/400/400?random=7" alt="Gallery Image 7">
+                <div class="caption">Regular</div>
         </main>
         
         <footer>
             <p>© 2024 CSS Grid Exercise | Learning Resource for Students</p>
         </footer>
-
-
-    </body>
+        
+            
+        </body>
